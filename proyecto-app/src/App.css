@@ -1,0 +1,63 @@
+.medicamentos-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+.medicamentos-table th,
+.medicamentos-table td {
+  border: 1px solid #dddddd;
+  padding: 8px 12px;
+}
+
+.medicamentos-table th {
+  background-color: #f4f4f4;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.medicamentos-table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.medicamentos-table tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.medicamentos-table tbody tr:hover {
+  background-color: #eaeaea;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button.add-btn {
+  background-color: #28a745;
+}
+
+button.edit-btn {
+  background-color: #007bff;
+}
+
+button.delete-btn {
+  background-color: #dc3545;
+}
